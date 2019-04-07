@@ -1,0 +1,11 @@
+sklearn
+jupyter
+tqdm
+numpy
+mxnet
+gluoncv
+opencv-python
+moviepy
+matplotlib
+keras
+tensorflow
