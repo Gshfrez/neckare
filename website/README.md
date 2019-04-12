@@ -19,19 +19,26 @@ Case Studies:
 - [Analysis of the problem](https://www.theguardian.com/society/2017/feb/10/epidemic-of-untreatable-back-and-neck-pain-costs-billions-study-finds)
 - [Effectiveness of an application-based neck exercise as a pain management tool for office workers with chronic neck pain and functional disability: A pilot randomized trial](https://www-sciencedirect-com.libproxy1.nus.edu.sg/science/article/pii/S1876382017300987#!)
 
+Source Code:
+- [Our Front End Landing Page](https://github.com/zecronai/neck_wonder/)
+- [Our Machine Learning Model (model training and prediction)](https://github.com/zecronai/posture_model)
+- [Our Front End Posture Tracker](https://github.com/zecronai/posture_tracker)
+
 Video:
-- [Video Demonstration of the simple stretch exercise]()
+- [Video Demonstration of the simple stretch exercise](https://www.youtube.com/watch?v=uGskeJQ62SA)
 
 ## Team Members
+- Jiachao LIN, Software Intern, [LinkedIn](https://www.linkedin.com/in/linjiachao/)
+- hexicle, Software Developer, [Github](https://github.com/hexicle)
 - Simon MOISSELIN, Machine Learning engineer, [LinkedIn](https://www.linkedin.com/in/simonmoisselin/)
 - Theo JIANG, Entrepreneur, [LinkedIn](https://www.linkedin.com/in/theo-jiang-852662173/)
 
 ## Installations & Reproduction Detailed Instructions
 
 This is the link of our machine learning code (model training and prediction):
-https://github.com/zecronai/posture_Model
+[zecronai/posture_model](https://github.com/zecronai/posture_Model)
 
-- To Install : https://github.com/zecronai/posture_Model
-- To Reproduce Results : https://github.com/zecronai/posture_Model
+- To Install : [zecronai/posture_model](https://github.com/zecronai/posture_model)
+- To Reproduce Results : [zecronai/posture_model](https://github.com/zecronai/posture_model)
 
 
