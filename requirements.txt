@@ -9,3 +9,6 @@ moviepy
 matplotlib
 keras
 tensorflow
+cmake
+imutils
+dlib
