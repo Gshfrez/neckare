@@ -26,7 +26,14 @@ $(document).ready(function() {
   });
 });
 
-console.log("meow")
+/*
+Generates a sequence of values which
+start at starting_pain
+end at ending_pain
+decreasing over the period of cure_time
+but the sequence covers the period of total_duration
+and randomly varies from those values with maximum magnitude of noise_magnitude
+*/
 function generate_pain_element(starting_pain, ending_pain, cure_time, total_duration, noise_magnitude)
 {
     var MIN_PAIN = 0
