@@ -1,6 +1,6 @@
-# Neck Wonder
+# Neckare
 
-- [Neck Wonder](#neck-wonder)
+- [Neckare](#neckare)
   * [Tagline](#tagline)
   * [Summary Paragraph](#summary-paragraph)
   * [Additional resources](#additional-resources)
