@@ -24,6 +24,7 @@ Video:
 
 ## Team Members
 - Simon MOISSELIN, Machine Learning engineer, [LinkedIn](https://www.linkedin.com/in/simonmoisselin/)
+- hexicle, Software Developer, [Github](https://github.com/hexicle)
 - Theo JIANG, Entrepreneur, [LinkedIn](https://www.linkedin.com/in/theo-jiang-852662173/)
 
 ## Installations & Reproduction Detailed Instructions
