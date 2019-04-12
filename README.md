@@ -4,7 +4,6 @@
   * [Tagline](#tagline)
   * [Summary Paragraph](#summary-paragraph)
   * [Additional resources](#additional-resources)
-  * [Team Members](#team-members)
   * [Installations & Reproduction Detailed Instructions](#installations---reproduction-detailed-instructions)
 - [Model Explanation](#model-explanation)
   * [Installation](#installation)
