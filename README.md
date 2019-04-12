@@ -37,11 +37,6 @@ Case Studies:
 Video:
 - [Video Demonstration of the simple stretch exercise]()
 
-## Team Members
-- Simon, Machine Learning engineer
-- hexicle, Software Developer
-- Gshfrez, Project Leader
-
 ## Installations & Reproduction Detailed Instructions
 
 This is the link of our machine learning code (model training and prediction):
