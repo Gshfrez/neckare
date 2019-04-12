@@ -38,9 +38,9 @@ Video:
 - [Video Demonstration of the simple stretch exercise]()
 
 ## Team Members
-- Simon MOISSELIN, Machine Learning engineer, [LinkedIn](https://www.linkedin.com/in/simonmoisselin/)
-- hexicle, Software Developer, [Github](https://github.com/hexicle)
-- Theo JIANG, Entrepreneur, [LinkedIn](https://www.linkedin.com/in/theo-jiang-852662173/)
+- Simon MOISSELIN, Machine Learning engineer
+- hexicle, Software Developer
+- Theo JIANG, Project Leader
 
 ## Installations & Reproduction Detailed Instructions
 
