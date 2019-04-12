@@ -3,8 +3,7 @@
 - [Neck Wonder](#neck-wonder)
   * [Tagline](#tagline)
   * [Summary Paragraph](#summary-paragraph)
-  * [Link to the one page article](#link-to-the-one-page-article)
-  * [Additional ressources:](#additional-ressources-)
+  * [Additional resources](#additional-resources)
   * [Team Members](#team-members)
   * [Installations & Reproduction Detailed Instructions](#installations---reproduction-detailed-instructions)
 - [Model Explanation](#model-explanation)
@@ -28,7 +27,7 @@ A creative sustainable way to incentivize people to do neck exercises to prevent
 With Neck Wonder, we are attempting to tackle a [US $88bn a year problem](https://www.theguardian.com/society/2017/feb/10/epidemic-of-untreatable-back-and-neck-pain-costs-billions-study-finds) affecting one million people annually.By combining Machine Learning Models and and an attractive rewards scheme, we aim to help the white collared workers most affected by neck pain due to poor posture over long periods of time build a habit of stretching regularly and thus improving their postures. 
 
 
-## Additional ressources:
+## Additional resources
 
 Case Studies:
 - [Neck pain management case study](https://www.physio-pedia.com/The_Management_of_Neck_pain:_A_Case_Study)
@@ -84,7 +83,7 @@ We decided to take a completely new approach. Instead of training the model base
 The idea is that, using 17 2D points instead of a full image, it will be much more difficult for the network to overfit.
 
 This approach can be seen as transfer learning for new classes of human pose estimations.
-To our knowledge, we did not see similar techniques in the litterature.
+To our knowledge, we did not see similar techniques in the literature.
 
 This is the part of our machine learning pipeline that is trainable. Only a linear model on 34 parameters:
 
@@ -95,7 +94,7 @@ This is the part of our machine learning pipeline that is trainable. Only a line
 We compared both results by looking at the validation loss.
 As the graphics below demonstrate, the convergence of the new model is much faster, and the `val_loss` is slower.
 
-The blue line corresponds to our model based on pose estimations, whereas the other model is based on a pretrained MobileNet.
+The blue line corresponds to our model based on pose estimations, whereas the other model is based on a pre-trained MobileNet.
 
 ![Image](img/val_loss.png)
 
