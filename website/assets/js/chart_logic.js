@@ -26,6 +26,50 @@ $(document).ready(function() {
   });
 });
 
+console.log("meow")
+function generate_pain_element(starting_pain, ending_pain, cure_time, total_duration, noise_magnitude)
+{
+    var MIN_PAIN = 0
+    var MAX_PAIN = 10
+
+    var pain_array = []
+
+    for (var i = 0; i < cure_time; i++)
+    {
+        //random is -1 < x < +1
+        random = 2*(Math.random() - 0.5)
+        noise = noise_magnitude * random
+        current_pain_expected = (i / cure_time) * (ending_pain - starting_pain) + ending_pain
+        current_pain_actual = Math.round(current_pain_expected + noise)
+        if (current_pain_actual < MIN_PAIN) {
+            current_pain_actual = MIN_PAIN
+        }
+        else if (current_pain_actual > MAX_PAIN) {
+            current_pain_actual = MAX_PAIN
+        }
+        pain_array.push(current_pain_actual)
+    }
+    for (var i = cure_time; i < total_duration; i++)
+    {
+        random = 2*(Math.random() - 0.5)
+        noise = noise_magnitude * random
+        current_pain_expected = ending_pain
+        current_pain_actual = Math.round(current_pain_expected + noise)
+        if (current_pain_actual < MIN_PAIN) {
+            current_pain_actual = MIN_PAIN
+        }
+        else if (current_pain_actual > MAX_PAIN) {
+            current_pain_actual = MAX_PAIN
+        }
+        pain_array.push(current_pain_actual)
+
+    }
+
+	return pain_array
+}
+
+
+// generate data
 var MONTHS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 var config = {
   type: 'line',
@@ -35,30 +79,14 @@ var config = {
       label: 'My Neck Pain',
       backgroundColor: window.chartColors.red,
       borderColor: window.chartColors.red,
-      data: [
-        randomScalingFactor(),
-        randomScalingFactor(),
-        randomScalingFactor(),
-        randomScalingFactor(),
-        randomScalingFactor(),
-        randomScalingFactor(),
-        randomScalingFactor()
-      ],
+      data: generate_pain_element(8,3,30,60,1),
       fill: false,
     }, {
       label: 'My Shoulder Pain',
       fill: false,
       backgroundColor: window.chartColors.blue,
       borderColor: window.chartColors.blue,
-      data: [
-        randomScalingFactor(),
-        randomScalingFactor(),
-        randomScalingFactor(),
-        randomScalingFactor(),
-        randomScalingFactor(),
-        randomScalingFactor(),
-        randomScalingFactor()
-      ],
+      data: generate_pain_element(7,2,50,60,1),
     }]
   },
   options: {
