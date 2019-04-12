@@ -2,7 +2,7 @@
 
 ## Tagline
 
-A creative sustaibable way to incentivize people to do neck exercises to prevent or cure neck strain 
+A creative sustainable way to incentivize people to do neck exercises to prevent or cure neck strain 
 
 ## Summary Paragraph
 
@@ -29,9 +29,9 @@ Video:
 ## Installations & Reproduction Detailed Instructions
 
 This is the link of our machine learning code (model training and prediction):
-https://github.com/zecronai/posture_Model
+https://github.com/Gshfrez/neckare/tree/master/code
 
-- To Install : https://github.com/zecronai/posture_Model
-- To Reproduce Results : https://github.com/zecronai/posture_Model
+- To Install : https://github.com/Gshfrez/neckare/tree/master/code
+- To Reproduce Results : https://github.com/Gshfrez/neckare/tree/master/code
 
 
