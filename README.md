@@ -1,5 +1,24 @@
 # Neck Wonder
 
+- [Neck Wonder](#neck-wonder)
+  * [Tagline](#tagline)
+  * [Summary Paragraph](#summary-paragraph)
+  * [Link to the one page article](#link-to-the-one-page-article)
+  * [Additional ressources:](#additional-ressources-)
+  * [Team Members](#team-members)
+  * [Installations & Reproduction Detailed Instructions](#installations---reproduction-detailed-instructions)
+- [Model Explanation](#model-explanation)
+  * [Installation](#installation)
+  * [Reproducibility](#reproducibility)
+  * [Model explanation](#model-explanation)
+  * [Our approach](#our-approach)
+    + [Results](#results)
+    + [PoseNet explanation](#posenet-explanation)
+  * [One Page Article](#one-page-article)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 ## Tagline
 
 A creative sustainable way to incentivize people to do neck exercises to prevent or cure neck strain 
@@ -8,9 +27,6 @@ A creative sustainable way to incentivize people to do neck exercises to prevent
 
 With Neck Wonder, we are attempting to tackle a [US $88bn a year problem](https://www.theguardian.com/society/2017/feb/10/epidemic-of-untreatable-back-and-neck-pain-costs-billions-study-finds) affecting one million people annually.By combining Machine Learning Models and and an attractive rewards scheme, we aim to help the white collared workers most affected by neck pain due to poor posture over long periods of time build a habit of stretching regularly and thus improving their postures. 
 
-## Link to the one page article
-
-[One Page article](One_Page_Article.md)
 
 ## Additional ressources:
 
